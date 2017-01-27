@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
-import { TournamentsPage } from ../pages;
+import { TournamentsPage } from '../pages';
 
 
 @Component({
