@@ -6,14 +6,14 @@
 -->
 <ion-header>
 
-  <ion-navbar primary>
+  <ion-navbar color = "primary">
     <ion-title>Teams</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 <ion-content padding>
-  <button *ngfor="let team of teams" (click)="itemTapped($event, team)"{{team.name}}</button>
+  <button ion-button *ngFor="let team of teams; let i = index; trackBy: trackByFn" (click)="itemTapped($event, team)">{{team.name}}</button>
 
 
 </ion-content>

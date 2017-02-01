@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { TeamDetailPage } from '../pages/pages';
+import { TeamDetailPage } from '../pages';
 /*
   Generated class for the Teams page.
 
