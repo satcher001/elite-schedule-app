@@ -12,7 +12,7 @@ import { MyTeamsPage, TournamentsPage } from '../pages/pages';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = TournamentsPage;
+  rootPage: any = MyTeamsPage;
 
   constructor(public platform: Platform) {
     this.initializeApp();
